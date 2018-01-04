@@ -4,7 +4,7 @@ import bootState from './states/boot';
 import gameState from './states/game';
 import menuState from './states/menu';
 
-const game = new Phaser.Game({
+const game: Phaser.Game = new Phaser.Game({
   // See <https://photonstorm.github.io/phaser-ce/global.html#GameConfig>
   // antialias:               true,
   // backgroundColor:         0x000000,
