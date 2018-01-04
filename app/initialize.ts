@@ -1,4 +1,10 @@
-var game = window.GAME = new Phaser.Game({
+/// <reference path="../node_modules/phaser-ce/typescript/phaser.d.ts"/>
+
+import bootState from './states/boot';
+import gameState from './states/game';
+import menuState from './states/menu';
+
+const game = new Phaser.Game({
   // See <https://photonstorm.github.io/phaser-ce/global.html#GameConfig>
   // antialias:               true,
   // backgroundColor:         0x000000,
@@ -12,8 +18,8 @@ var game = window.GAME = new Phaser.Game({
   // width:                   800,
 });
 
-game.state.add('boot', require('states/boot'));
-game.state.add('game', require('states/game'));
-game.state.add('menu', require('states/menu'));
+game.state.add('boot', bootState);
+game.state.add('game', gameState);
+game.state.add('menu', menuState);
 
 game.state.start('boot');

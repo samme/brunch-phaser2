@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 
   create: function () {
     var title = this.add.text(0, 0, 'Duck Quest', {
@@ -14,4 +14,4 @@ module.exports = {
     this.state.start('game');
   }
 
-};
+}

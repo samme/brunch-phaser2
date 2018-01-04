@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 
   create: function () {
     var world = this.world;
@@ -25,4 +25,4 @@ module.exports = {
     this.state.start('menu');
   }
 
-};
+}
