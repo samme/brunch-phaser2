@@ -1,4 +1,4 @@
-var game = window.GAME = new Phaser.Game({
+const game = window.GAME = new Phaser.Game({
   // See <https://photonstorm.github.io/phaser-ce/global.html#GameConfig>
   // antialias:               true,
   // backgroundColor:         0x000000,

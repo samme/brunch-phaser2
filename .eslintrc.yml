@@ -1,6 +1,7 @@
 env:
   browser: yes
   commonjs: yes
+  es6: yes
 extends: 'eslint:recommended'
 globals:
   p2: no

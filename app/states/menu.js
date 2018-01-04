@@ -1,7 +1,7 @@
 module.exports = {
 
   create: function () {
-    var title = this.add.text(0, 0, 'Duck Quest', {
+    const title = this.add.text(0, 0, 'Duck Quest', {
       fill: 'white',
       font: '100px fantasy'
     });
