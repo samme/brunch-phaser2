@@ -1,6 +1,6 @@
 module.exports = {
 
-  create: function () {
+  create() {
     const world = this.world;
 
     const carrot = this.carrot = this.add.image(world.width * 0.75, world.centerY, 'carrot');
@@ -13,15 +13,15 @@ module.exports = {
     duck.animations.play('walk');
   },
 
-  update: function () {
+  update() {
 
   },
 
-  restart: function () {
+  restart() {
     this.state.restart();
   },
 
-  quit: function () {
+  quit() {
     this.state.start('menu');
   }
 

@@ -1,6 +1,6 @@
 module.exports = {
 
-  create: function () {
+  create() {
     const title = this.add.text(0, 0, 'Duck Quest', {
       fill: 'white',
       font: '100px fantasy'
@@ -10,7 +10,7 @@ module.exports = {
     this.input.onTap.add(this.startGame.bind(this));
   },
 
-  startGame: function () {
+  startGame() {
     this.state.start('game');
   }
 
