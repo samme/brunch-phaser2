@@ -1,6 +1,6 @@
 export default {
 
-  create: function () {
+  create() {
     var world = this.world;
 
     var carrot = this.carrot = this.add.image(world.width * 0.75, world.centerY, 'carrot');
@@ -13,15 +13,15 @@ export default {
     duck.animations.play('walk');
   },
 
-  update: function () {
+  update() {
 
   },
 
-  restart: function () {
+  restart() {
     this.state.restart();
   },
 
-  quit: function () {
+  quit() {
     this.state.start('menu');
   }
 

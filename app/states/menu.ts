@@ -1,6 +1,6 @@
 export default {
 
-  create: function () {
+  create() {
     var title = this.add.text(0, 0, 'Duck Quest', {
       fill: 'white',
       font: '100px fantasy'
@@ -10,7 +10,7 @@ export default {
     this.input.onTap.add(this.startGame.bind(this));
   },
 
-  startGame: function () {
+  startGame() {
     this.state.start('game');
   }
 
