@@ -17,6 +17,7 @@ module.exports =
     static: [
       'node_modules/phaser/build/phaser.js'
       'node_modules/phaser-ce/build/phaser.js'
+      # 'node_modules/phaser-ce/build/custom/phaser-arcade-physics.js'
     ]
   plugins:
     # https://github.com/babel/babel-brunch#configuration

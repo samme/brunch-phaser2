@@ -43,6 +43,8 @@ If you want to switch libraries:
 
     npm remove -S phaser-ce && npm install -S phaser
 
+For custom builds, see `npm.static` in [brunch-config](brunch-config.coffee).
+
 Add NPM packages
 ----------------
 
