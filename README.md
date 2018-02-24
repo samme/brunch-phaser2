@@ -1,11 +1,11 @@
-Brunch with Phaser
-==================
+Brunch with Phaser 2
+====================
 
-A [Brunch](http://brunch.io) skeleton for making games with [Phaser](http://phaser.io).
+A [Brunch](http://brunch.io) skeleton for making games with [Phaser 2 (CE)](https://github.com/photonstorm/phaser-ce). (For Phaser 3, please see [brunch-phaser](https://github.com/samme/brunch-phaser).)
 
 You can use CoffeeScript, ES6, TypeScript, or plain JavaScript.
 
-    brunch new <project> -s phaser
+    brunch new <project> -s samme/brunch-phaser2
 
 Get started
 -----------
@@ -14,7 +14,7 @@ Get started
   - [Node.js](https://nodejs.org)
   - [Brunch](http://brunch.io): `npm install -g brunch`
 - Run:
-  - `brunch new <project> -s samme/brunch-phaser` (or see [Clone](#clone), below)
+  - `brunch new <project> -s samme/brunch-phaser2` (or see [Clone](#clone), below)
   - `npm run start` or `brunch watch --server` watches the project with continuous rebuild.
   - `npm run build` or `brunch build --production` builds minified project for production.
 - Make:
@@ -27,15 +27,15 @@ The skeleton includes a sample game written in plain (ES5) JavaScript. If you'd 
 
 ```shell
 # Choose one
-git clone https://github.com/samme/brunch-phaser.git --branch coffee
-git clone https://github.com/samme/brunch-phaser.git --branch es6
-git clone https://github.com/samme/brunch-phaser.git --branch typescript
+git clone https://github.com/samme/brunch-phaser2.git --branch coffee
+git clone https://github.com/samme/brunch-phaser2.git --branch es6
+git clone https://github.com/samme/brunch-phaser2.git --branch typescript
 ```
 
 Phaser
 ------
 
-Phaser is managed through NPM. Update with:
+Phaser is managed through [npm](https://docs.npmjs.com/cli/npm). Update with:
 
     npm update
 
@@ -43,8 +43,8 @@ If you want to switch libraries:
 
     npm remove -S phaser-ce && npm install -S phaser
 
-Add NPM packages
-----------------
+Add packages
+------------
 
     npm install -S <package>
 
