@@ -59,3 +59,19 @@ Add other libraries
 -------------------
 
 Add the unminified script to [vendor](vendor).
+
+Plugins
+-------
+
+You can remove any plugins for languages you aren't using.
+
+```shell
+# List
+npm list --dev --depth=0
+
+# Add (http://brunch.io/plugins)
+npm install -D plugin-name
+
+# Remove, e.g.,
+npm uninstall -D babel-brunch coffee-script-brunch typescript-brunch
+```
